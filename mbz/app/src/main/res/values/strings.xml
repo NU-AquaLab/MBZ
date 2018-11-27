@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MBZ</string>
+    <string name="router_start_text">Start</string>
+    <string name="router_stop_text">Stop</string>
+    <string name="plugin_open_text">Open</string>
+    <string name="plugin_start_text">Start</string>
+    <string name="plugin_stop_text">Stop</string>
+    <string name="channel_name">Routing</string>
+    <string name="channel_description">Notifications for MBZ routing</string>
+</resources>

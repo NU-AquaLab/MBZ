@@ -1,0 +1,3 @@
+/Users/jtnhome/research/2018/MBZ/code/mbz/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/edit_cache.dir
+/Users/jtnhome/research/2018/MBZ/code/mbz/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/rebuild_cache.dir
+/Users/jtnhome/research/2018/MBZ/code/mbz/app/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/mbz-lib.dir

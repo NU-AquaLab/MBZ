@@ -1,0 +1,4 @@
+#Thu Aug 30 13:00:06 CDT 2018
+base.0=/Users/jtnhome/research/2018/MBZ/code/mbz/app/build/intermediates/transforms/dexMerger/debug/42
+path.0=classes.dex
+renamed.0=classes.dex

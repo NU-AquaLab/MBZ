@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\begin{tabular}{|l|r|}
+\hline
+{\bf Website Name} & {\bf URL} & {\bf Third-Party URL} & {\bf IP Address}\\
+\hline
+Financial Times &www.ft.com & https://www.fastly-insights.com & 151.101.45.194\\
+\hline
+\multirow{2}{*}{Los Angelos Times} & \multirow{2}{*}{www.latimes.com} & https://clarium.global.ssl.fastly.net & 151.101.45.194\\
+& & http://rp.gwallet.com & 74.217.253.61\\
+\hline
+Time & www.time.com & http://fls-na.amazon-adsystem.com & 173.241.244.220\\
+\hline
+\end{tabular}
+\vspace{0.1in}
+\caption{Results from a brief controlled experiment demonstrating how MBZ can answer the question: {\it what third-parties is this website contacting?}. By capturing the IPs, MBZ can show the user the answer. Here we see three websites where MBZ determined that a third party was contacted, such as the Time website contacting an Amazon ad server}
+\vspace{-0.1in}
+\label{table:thirdparties}
+\end{table}

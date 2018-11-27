@@ -1,0 +1,29 @@
+--MBZ--
+
+- Plugins:
+  - Each plugin requires several different functions to work properly:
+    - init (int pid, int (*req)(void* int))
+      - basic initialization function
+      - req is one of the structs defined in the plugin file (e.g. plugin.cpp) and outlines what the plugin wants (e.g. flow stats or ui data)
+    - run()
+      - function to run the basic plugin code, executed in separate thread
+    - stop()
+      - stop plugin (sets state.running = false)
+    - deinit()
+      - uninitialize the plugin
+    - update(char *buf, int n)
+      - called following a request to process a UI update plugin request 
+    - procout(uint32_t dstip, uint16_t dstport, int *drop)
+      - process outbound packet 
+      - e.g. check IP against those to firewall
+  - Setting up Plugins:
+    - Instructions exist in README file
+    - currently need to be deployed manually onto the device
+      - three files are necessary for the plugin to be loaded properly:
+        - config
+          - set of lines w/ single integers indicating the needs of the plugin
+        - <plugin>.jar (Android APK for UI code)
+        - lib<plugin>.so (C++ shared library for native code)
+    - the config file specifies what defined services the plugin requires
+      - List of currently defined services are in the README file
+      - future services can be added such as shared HTTP proxy, GPS, etc.

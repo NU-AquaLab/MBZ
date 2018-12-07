@@ -246,6 +246,7 @@ public class PluginLayout {
             header.setLayoutParams(new TableLayout.LayoutParams(
                     TableLayout.LayoutParams.MATCH_PARENT,
                     TableLayout.LayoutParams.WRAP_CONTENT));
+                ran.push(el.id);
 
             for (String s: HEADERS) {
                 TextView text = new TextView(m_context);

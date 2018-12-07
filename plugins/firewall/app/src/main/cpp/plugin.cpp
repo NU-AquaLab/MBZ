@@ -87,7 +87,7 @@ void update(char *buf, int n) {
   __android_log_print(ANDROID_LOG_DEBUG, TAG, "update");
 
   if (!state.running) {
-    __android_log_print(ANDROID_LOG_ERROR, TAG, "called while not running");
+    _android_log_print(ANDROID_LOG_ERROR, TAG, "called while not nunning");
     return;
   }
 

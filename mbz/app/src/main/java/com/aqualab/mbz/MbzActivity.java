@@ -49,7 +49,7 @@ public class MbzActivity extends Activity {
         // init state
         m_conn = new MbzServiceConnection();
         m_binder = null;
-//        m_adapter = new PluginAdapter();
+        m_adapter = new PluginAdapter();
 
         // init UI elements
         final Button startButton = findViewById(R.id.router_start);
@@ -81,8 +81,8 @@ public class MbzActivity extends Activity {
             }
         });
 
-//        ListView pluginList = findViewById(R.id.plugin_list);
-//        pluginList.setAdapter(m_adapter);
+        ListView pluginList = findViewById(R.id.plugin_list);
+        pluginList.setAdapter(m_adapter);
 
         Log.d(TAG, "Activity created.");
     }
@@ -129,7 +129,7 @@ public class MbzActivity extends Activity {
         @Override
         public void onServiceConnected(ComponentName className, IBinder binder) {
             m_binder = (MbzService.MbzBinder) binder;
-//            m_adapter.registerAll();
+            m_adapter.registerAll();
         }
 
         @Override
@@ -141,7 +141,7 @@ public class MbzActivity extends Activity {
     private void startRouting() {
         if (m_binder != null) {
             m_binder.startRouting();
-//            m_adapter.notifyDataSetChanged();
+            m_adapter.notifyDataSetChanged();
         }
         else {
             Toast.makeText(this, "Unable to bind service.", Toast.LENGTH_SHORT).show();
@@ -151,7 +151,7 @@ public class MbzActivity extends Activity {
     private void stopRouting() {
         if (m_binder != null) {
             m_binder.stopRouting();
-//            m_adapter.notifyDataSetChanged();
+            m_adapter.notifyDataSetChanged();
         }
         else {
             Toast.makeText(this, "Unable to bind service.", Toast.LENGTH_SHORT).show();
@@ -185,98 +185,98 @@ public class MbzActivity extends Activity {
         }
     }
 
-    private boolean downloadJar(File f) {
-        final File dir = new File(f.getAbsolutePath(), "example.jar");
-        new Thread(new Runnable(){
-
-            @Override
-            public void run() {
-                try {
-                    URL url = new URL("jar:http://hinckley.cs.northwestern.edu/~jtn609/mbz/plugins/example/example.jar!/");
-                    JarURLConnection jarc = (JarURLConnection)url.openConnection();
-                    JarFile jf = jarc.getJarFile();
-
-                    JarOutputStream jos = new JarOutputStream(new FileOutputStream(dir), jf.getManifest());
-                    BufferedOutputStream bos = new BufferedOutputStream(jos);
-                    Enumeration<JarEntry> jarenum = jf.entries();
-                    JarEntry je;
-                    while(jarenum.hasMoreElements()){
-                        je = jarenum.nextElement();
-                        jos.putNextEntry(je);
-
-                    }
-                    jos.flush();
-                    jos.close();
-
-                }catch(Exception e){
-                    e.printStackTrace();
-                }
-
-            }
-        }).start();
-        return true;
-    }
-
-    private boolean downloadConfig(File f) {
-        //JTN - Start of messing stuff up
-        Log.d(TAG, "Detour to test making new plugin");
-        final File dir = new File(f.getAbsolutePath(), "example");
-        boolean success = dir.mkdir();
-        Log.d(TAG, "Result: " + success);
-//        Log.d(TAG, "dir: " + dir.getAbsolutePath());
-        new Thread(new Runnable() {
-
-            public void run() {
-                //Make new plugin folder
-
-                ArrayList<String> urls = new ArrayList<String>();
-                try {
-                    // Create a URL for the desired page
-                    URL url = new URL("http://hinckley.cs.northwestern.edu/~jtn609/mbz/plugins/example/config"); //My text file location
-                    //First open the connection
-                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                    conn.setConnectTimeout(60000); // timing out in a minute
-                    BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-                    String str;
-                    while ((str = in.readLine()) != null) {
-                        urls.add(str);
-                    }
-                    in.close();
-                } catch (Exception e) {
-                    Log.d("MyTag", e.toString());
-                }
-                String contents = "";
-                Log.d(TAG, "Is Pipelined?: " + urls.get(0));
-                contents = urls.get(0) + "\n";
-                String[] id_vals = new String[]{"Flow-Stats", "UI", "WiFi"};
-                for (int i = 1; i < urls.size(); i++) {
-                    int id = Integer.parseInt(urls.get(i));
-                    Log.d(TAG, id_vals[id]);
-                    contents += urls.get(i) + "\n";
-                }
-                    try {
-//                        fos = openFileOutput(fos, Context.MODE_PRIVATE);
-                        File plugins = new File(getFilesDir(), "plugins");
-                        Log.d(TAG, "Here?: " + plugins.exists());
-                        File[] fs = plugins.listFiles();
-                        for (int i = 0; i < fs.length; i++){
-                            File f = fs[i];
-                            Log.d(TAG, f.getName());
-                        }
-//                        Log.d(TAG, "Made File?: " + b);
-                        File ex = new File(plugins, "example");
-                        File con = new File(ex, "config");
-                        FileOutputStream fos = new FileOutputStream(con);
-                        fos.write(contents.getBytes());
-                        fos.close();
-                    }catch(Exception e){
-                        e.printStackTrace();
-                    }
-                    downloadJar(dir);
-            }
-        }).start();
-        return true;
-    }
+//    private boolean downloadJar(File f) {
+//        final File dir = new File(f.getAbsolutePath(), "example.jar");
+//        new Thread(new Runnable(){
+//
+//            @Override
+//            public void run() {
+//                try {
+//                    URL url = new URL("jar:http://hinckley.cs.northwestern.edu/~jtn609/mbz/plugins/example/example.jar!/");
+//                    JarURLConnection jarc = (JarURLConnection)url.openConnection();
+//                    JarFile jf = jarc.getJarFile();
+//
+//                    JarOutputStream jos = new JarOutputStream(new FileOutputStream(dir), jf.getManifest());
+//                    BufferedOutputStream bos = new BufferedOutputStream(jos);
+//                    Enumeration<JarEntry> jarenum = jf.entries();
+//                    JarEntry je;
+//                    while(jarenum.hasMoreElements()){
+//                        je = jarenum.nextElement();
+//                        jos.putNextEntry(je);
+//
+//                    }
+//                    jos.flush();
+//                    jos.close();
+//
+//                }catch(Exception e){
+//                    e.printStackTrace();
+//                }
+//
+//            }
+//        }).start();
+//        return true;
+//    }
+//
+//    private boolean downloadConfig(File f) {
+//        //JTN - Start of messing stuff up
+//        Log.d(TAG, "Detour to test making new plugin");
+//        final File dir = new File(f.getAbsolutePath(), "example");
+//        boolean success = dir.mkdir();
+//        Log.d(TAG, "Result: " + success);
+////        Log.d(TAG, "dir: " + dir.getAbsolutePath());
+//        new Thread(new Runnable() {
+//
+//            public void run() {
+//                //Make new plugin folder
+//
+//                ArrayList<String> urls = new ArrayList<String>();
+//                try {
+//                    // Create a URL for the desired page
+//                    URL url = new URL("http://hinckley.cs.northwestern.edu/~jtn609/mbz/plugins/example/config"); //My text file location
+//                    //First open the connection
+//                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+//                    conn.setConnectTimeout(60000); // timing out in a minute
+//                    BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+//                    String str;
+//                    while ((str = in.readLine()) != null) {
+//                        urls.add(str);
+//                    }
+//                    in.close();
+//                } catch (Exception e) {
+//                    Log.d("MyTag", e.toString());
+//                }
+//                String contents = "";
+//                Log.d(TAG, "Is Pipelined?: " + urls.get(0));
+//                contents = urls.get(0) + "\n";
+//                String[] id_vals = new String[]{"Flow-Stats", "UI", "WiFi"};
+//                for (int i = 1; i < urls.size(); i++) {
+//                    int id = Integer.parseInt(urls.get(i));
+//                    Log.d(TAG, id_vals[id]);
+//                    contents += urls.get(i) + "\n";
+//                }
+//                    try {
+////                        fos = openFileOutput(fos, Context.MODE_PRIVATE);
+//                        File plugins = new File(getFilesDir(), "plugins");
+//                        Log.d(TAG, "Here?: " + plugins.exists());
+//                        File[] fs = plugins.listFiles();
+//                        for (int i = 0; i < fs.length; i++){
+//                            File f = fs[i];
+//                            Log.d(TAG, f.getName());
+//                        }
+////                        Log.d(TAG, "Made File?: " + b);
+//                        File ex = new File(plugins, "example");
+//                        File con = new File(ex, "config");
+//                        FileOutputStream fos = new FileOutputStream(con);
+//                        fos.write(contents.getBytes());
+//                        fos.close();
+//                    }catch(Exception e){
+//                        e.printStackTrace();
+//                    }
+//                    downloadJar(dir);
+//            }
+//        }).start();
+//        return true;
+//    }
 
     private class PluginAdapter extends BaseAdapter {
         private ArrayList<Plugin> m_plugins;

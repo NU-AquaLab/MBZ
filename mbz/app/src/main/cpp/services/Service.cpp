@@ -14,6 +14,7 @@
 #define SERV_ID_FLOW_STATS 0
 #define SERV_ID_UI         1
 #define SERV_ID_WIFI       2
+#define SERV_ID_PROCOUT_FLEX 3
 
 #define TAG "Service"
 
@@ -49,6 +50,9 @@ namespace services {
       case SERV_ID_WIFI:
         s = new WifiService(sid, fds[0], fds[1], t, getWifiSignalLevel, disconnectWifi);
         break;
+        case SERV_ID_PROCOUT_FLEX:
+          s = NULL;
+          break;
       default:
         ERROR_PRINT(TAG, "Unknown service ID: %d", sid);
         close(fds[0]);

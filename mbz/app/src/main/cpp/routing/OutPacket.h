@@ -47,6 +47,8 @@ namespace routing {
     pcpp::IPv4Layer* getIpv4Layer() const;
     void print() const;
        pcpp::IPv4Layer *m_ipv42;
+      std::string toString() const;
+
 
   private:
     pcpp::RawPacket *m_rawPacket;
@@ -63,6 +65,7 @@ namespace routing {
       pcpp::IPv4Layer *m_ipv4;
 
     void computeFlowId();
+
   };
 }
 

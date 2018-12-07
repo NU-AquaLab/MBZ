@@ -115,4 +115,8 @@ namespace routing {
     DEBUG_PRINT(TAG, "Printing constructed packet...");
     DEBUG_PRINT(TAG, "%s", m_packet.toString().c_str());
   }
+
+  pcpp::Packet InPacket::getMPacket(){
+      return m_packet;
+  }
 }

@@ -19,6 +19,12 @@
 
 #include <algorithm>
 #include <stdlib.h>
+#include <sstream>
+#include <android/multinetwork.h>
+//#include <quic/src/net/quic_protocol.h>
+//#include <testing/gtest/include/gtest/internal/gtest-internal.h>
+//#include <testing/gtest/include/gtest/internal/gtest-port.h>
+//#include <testing/gtest/include/gtest/gtest.h>
 
 #include "Flow.h"
 #include "FlowId.h"
@@ -27,6 +33,35 @@
 #include "common/utils.h"
 #include "services/FlowStatsService.h"
 #include "services/Service.h"
+//#include "net/quic/core/crypto/crypto_framer.h"
+//#include "net/quic/core/crypto/quic_random.h"
+//#include "net/quic/core/crypto/crypto_handshake.h"
+//#include "net/quic/core/crypto/crypto_utils.h"
+//#include "net/quic/core/crypto/null_encrypter.h"
+//#include "net/quic/core/crypto/quic_decrypter.h"
+//#include "net/quic/core/crypto/quic_encrypter.h"
+//#include "net/quic/core/quic_data_writer.h"
+//#include "net/quic/core/quic_framer.h"
+//#include "net/quic/core/quic_packet_creator.h"
+//#include "net/quic/core/quic_utils.h"
+//#include "net/quic/platform/api/quic_endian.h"
+//#include "net/quic/platform/api/quic_flags.h"
+//#include "net/quic/platform/api/quic_logging.h"
+//#include "net/quic/platform/api/quic_ptr_util.h"
+//#include "net/quic/test_tools/crypto_test_utils.h"
+//#include "net/quic/test_tools/quic_connection_peer.h"
+//#include "net/quic/test_tools/quic_test_utils.h"
+//#include "net/spdy/core/spdy_frame_builder.h"
+//#include "net/quic/core/quic_crypto_stream.h"
+//#include "net/quic/core/quic_utils.h"
+//#include "net/quic/core/tls_server_handshaker.h"
+//#include "net/quic/platform/api/quic_test.h"
+//#include "net/quic/test_tools/crypto_test_utils.h"
+//#include "net/quic/test_tools/mock_quic_dispatcher.h"
+//#include "net/quic/test_tools/quic_test_utils.h"
+//#include "net/quic/tools/quic_memory_cache_backend.h"
+//#include "net/tools/quic/quic_simple_server_session_helper.h"
+//#include "net/quic/core/quic_packets.h"
 
 #define PLUGIN_SYM_INIT    "init"
 #define PLUGIN_SYM_RUN     "run"
@@ -34,6 +69,8 @@
 #define PLUGIN_SYM_DEINIT  "deinit"
 #define PLUGIN_SYM_UPDATE  "update"
 #define PLUGIN_SYM_PROCOUT "procout"
+#define PLUGIN_SYM_PROCOUT_FLEX "procout_flex"
+#define PLUGIN_SYM_PROCIN "procin"
 
 #define REQ_STATUS_PENDING 0
 #define REQ_STATUS_OK      1
@@ -48,7 +85,14 @@
 
 #define TAG "Router"
 
+#define SERV_FLOW_STATS 0
+#define SERV_UI 1
+#define SERV_WIFI 2
+#define SERV_FLEX_PROC_OUT 3
+#define SERV_PROC_IN 4
+
 namespace routing {
+
   static Router *instance = NULL;
 
   // request types
@@ -243,8 +287,25 @@ namespace routing {
     m_stopping = true;
   }
 
+
+
+
+    std::string ConvertJString(JNIEnv* env, jstring str)
+    {
+        const jsize len = env->GetStringUTFLength(str);
+        const char* strChars = env->GetStringUTFChars(str, (jboolean *)0);
+
+        std::string Result(strChars, len);
+
+        env->ReleaseStringUTFChars(str, strChars);
+
+        return Result;
+    }
+
   void Router::run(JNIEnv *jenv, jobject jrouter, int tunfd) {
     m_stopping = false;
+
+
 
     // init JNI interface
     if (!initJni(jenv, jrouter)) {
@@ -325,6 +386,12 @@ namespace routing {
     }
     close(tunfd);
   }
+
+
+
+
+
+
 
   void Router::startPlugin(int pid, int pipeline, int *services, int n, const char *libpath) {
     ui_req_start *r = new ui_req_start;
@@ -818,6 +885,9 @@ namespace routing {
     return true;
   }
 
+
+  //JTN: Reason why the plugin needs to be passed a pid when we create it,
+    // it serves as an identifier to check if it's running and stop if so
   bool Router::processReqUiStopPlugin(int pid) {
     DEBUG_PRINT(TAG, "Processing UI stop plugin request...");
 
@@ -1034,6 +1104,15 @@ namespace routing {
     return true;
   }
 
+  bool checkPluginServices(int *services, int service){
+      for(int i = 0; i < MAX_SERVICES; i++){
+          if (services[i] == service){
+              return true;
+          }
+      }
+      return false;
+  }
+
   Plugin *Router::createPlugin(int pid, int pipeline,
                                int *services, int n, const char *libpath) {
     void *handle;
@@ -1043,6 +1122,8 @@ namespace routing {
     void (*deinit)(void);
     void (*update)(char *, int);
     void (*procout)(uint32_t, uint16_t, int *);
+    void (*procout_flex)(char *, char *, int *);
+    void (*procin)(char *, char *, int *);
 
     DEBUG_PRINT(TAG, "Creating plugin %d, pipeline=%d, nservices=%d...",
                 pid, pipeline, n);
@@ -1096,17 +1177,43 @@ namespace routing {
       return NULL;
     }
 
-    procout = (void (*)(uint32_t, uint16_t, int *)) dlsym(handle, PLUGIN_SYM_PROCOUT);
-    if (procout == NULL) {
-      ERROR_PRINT(TAG, "Unable to load procout symbol: %s", dlerror());
+    bool flex_procout = checkPluginServices(services, SERV_FLEX_PROC_OUT);
+    if(flex_procout){
+        procout_flex = (void (*)(char *, char *, int *)) dlsym(handle, PLUGIN_SYM_PROCOUT_FLEX);
+        if (procout_flex == NULL) {
+            ERROR_PRINT(TAG, "Unable to load procout_flex symbol: %s", dlerror());
+            dlclose(handle);
+            return NULL;
+        }
+    }else {
+        procout = (void (*)(uint32_t, uint16_t, int *)) dlsym(handle, PLUGIN_SYM_PROCOUT);
+        if (procout == NULL) {
+            ERROR_PRINT(TAG, "Unable to load procout symbol: %s", dlerror());
+            dlclose(handle);
+            return NULL;
+        }
+    }
+
+    procin = (void (*)(char *, char *, int *)) dlsym(handle, PLUGIN_SYM_PROCIN);
+    if(procin == NULL){
+      ERROR_PRINT(TAG, "Unable to load procin symbol: %s", dlerror());
       dlclose(handle);
       return NULL;
     }
 
-    // allocate plugin
-    Plugin *p = new Plugin(pid, pipeline, handle, postPluginReq,
-                           init, run, stop, deinit, update, procout);
 
+
+    // allocate plugin
+      Plugin *p;
+//      if(flex_procout){
+//          p = new Plugin(pid, pipeline, handle, postPluginReq, init, run, stop, deinit, update, procout_flex);
+//    }else
+//
+//      {
+//          p = new Plugin(pid, pipeline, handle, postPluginReq,
+//                           init, run, stop, deinit, update, procout);
+//  }
+    p = new Plugin(pid, pipeline, handle, postPluginReq, init, run, stop, deinit, update, procout_flex, procin);
 
     // add plugin to table
     m_pluginTable.addPlugin(pid, p);
@@ -1133,7 +1240,10 @@ namespace routing {
 
   bool Router::startService(int sid) {
     DEBUG_PRINT(TAG, "Starting service %d...", sid);
-
+    //Return true if plugin wants flex out because it doesn't require an extra service to start
+    if(sid == SERV_FLEX_PROC_OUT){
+        return true;
+    }
     // check if service already exists
     if (m_serviceTable.hasService(sid)) {
       DEBUG_PRINT(TAG, "Service %d already started.", sid);

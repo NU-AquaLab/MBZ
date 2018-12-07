@@ -37,7 +37,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/mbz-lib.cpp.o: CXX_COMPILER__mbz-lib .
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\mbz-lib.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\mbz-lib.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\mbz-lib.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/common/utils.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/common/utils.cpp
@@ -45,7 +45,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/common/utils.cpp.o: CXX_COMPILER__mbz-
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\common\utils.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\common\utils.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\common\utils.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\common
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/Flow.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/Flow.cpp
@@ -53,7 +53,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/Flow.cpp.o: CXX_COMPILER__mbz-
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\Flow.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\Flow.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\Flow.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/FlowId.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/FlowId.cpp
@@ -61,7 +61,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/FlowId.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\FlowId.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\FlowId.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\FlowId.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/FlowTable.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/FlowTable.cpp
@@ -69,7 +69,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/FlowTable.cpp.o: CXX_COMPILER_
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\FlowTable.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\FlowTable.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\FlowTable.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/InPacket.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/InPacket.cpp
@@ -77,7 +77,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/InPacket.cpp.o: CXX_COMPILER__
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\InPacket.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\InPacket.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\InPacket.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/Jni.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/Jni.cpp
@@ -85,7 +85,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/Jni.cpp.o: CXX_COMPILER__mbz-l
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\Jni.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\Jni.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\Jni.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/OutPacket.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/OutPacket.cpp
@@ -93,7 +93,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/OutPacket.cpp.o: CXX_COMPILER_
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\OutPacket.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\OutPacket.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\OutPacket.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/Plugin.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/Plugin.cpp
@@ -101,7 +101,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/Plugin.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\Plugin.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\Plugin.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\Plugin.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/PluginTable.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/PluginTable.cpp
@@ -109,7 +109,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/PluginTable.cpp.o: CXX_COMPILE
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\PluginTable.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\PluginTable.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\PluginTable.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/Router.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/Router.cpp
@@ -117,7 +117,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/Router.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\Router.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\Router.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\Router.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/ServiceTable.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/ServiceTable.cpp
@@ -125,7 +125,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/ServiceTable.cpp.o: CXX_COMPIL
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\ServiceTable.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\ServiceTable.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\ServiceTable.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/TcpFlow.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/TcpFlow.cpp
@@ -133,7 +133,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/TcpFlow.cpp.o: CXX_COMPILER__m
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\TcpFlow.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\TcpFlow.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\TcpFlow.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/UdpFlow.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/routing/UdpFlow.cpp
@@ -141,7 +141,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/routing/UdpFlow.cpp.o: CXX_COMPILER__m
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\routing\UdpFlow.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\routing\UdpFlow.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\routing\UdpFlow.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\routing
 build CMakeFiles/mbz-lib.dir/src/main/cpp/services/FlowStatsService.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/services/FlowStatsService.cpp
@@ -149,7 +149,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/services/FlowStatsService.cpp.o: CXX_C
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\services\FlowStatsService.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\services\FlowStatsService.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\services\FlowStatsService.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\services
 build CMakeFiles/mbz-lib.dir/src/main/cpp/services/Service.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/services/Service.cpp
@@ -157,7 +157,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/services/Service.cpp.o: CXX_COMPILER__
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\services\Service.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\services\Service.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\services\Service.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\services
 build CMakeFiles/mbz-lib.dir/src/main/cpp/services/UiService.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/services/UiService.cpp
@@ -165,7 +165,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/services/UiService.cpp.o: CXX_COMPILER
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\services\UiService.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\services\UiService.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\services\UiService.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\services
 build CMakeFiles/mbz-lib.dir/src/main/cpp/services/WifiService.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/services/WifiService.cpp
@@ -173,7 +173,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/services/WifiService.cpp.o: CXX_COMPIL
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\services\WifiService.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\services\WifiService.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\services\WifiService.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\services
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/ArpLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/ArpLayer.cpp
@@ -181,7 +181,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/ArpLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\ArpLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\ArpLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\ArpLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/DhcpLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/DhcpLayer.cpp
@@ -189,7 +189,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/DhcpLayer.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\DhcpLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\DhcpLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\DhcpLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/DnsLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/DnsLayer.cpp
@@ -197,7 +197,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/DnsLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\DnsLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\DnsLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\DnsLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/EthLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/EthLayer.cpp
@@ -205,7 +205,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/EthLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\EthLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\EthLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\EthLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/GreLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/GreLayer.cpp
@@ -213,7 +213,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/GreLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\GreLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\GreLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\GreLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/HttpLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/HttpLayer.cpp
@@ -221,7 +221,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/HttpLayer.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\HttpLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\HttpLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\HttpLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IPReassembly.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/IPReassembly.cpp
@@ -229,7 +229,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IPReassembly.cpp.o: CXX_COMPILER_
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\IPReassembly.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\IPReassembly.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\IPReassembly.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IPv4Layer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/IPv4Layer.cpp
@@ -237,7 +237,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IPv4Layer.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\IPv4Layer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\IPv4Layer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\IPv4Layer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IPv6Extensions.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/IPv6Extensions.cpp
@@ -245,7 +245,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IPv6Extensions.cpp.o: CXX_COMPILE
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\IPv6Extensions.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\IPv6Extensions.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\IPv6Extensions.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IPv6Layer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/IPv6Layer.cpp
@@ -253,7 +253,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IPv6Layer.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\IPv6Layer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\IPv6Layer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\IPv6Layer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IcmpLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/IcmpLayer.cpp
@@ -261,7 +261,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IcmpLayer.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\IcmpLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\IcmpLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\IcmpLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IgmpLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/IgmpLayer.cpp
@@ -269,7 +269,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IgmpLayer.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\IgmpLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\IgmpLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\IgmpLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IpAddress.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/IpAddress.cpp
@@ -277,7 +277,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IpAddress.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\IpAddress.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\IpAddress.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\IpAddress.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IpUtils.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/IpUtils.cpp
@@ -285,7 +285,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/IpUtils.cpp.o: CXX_COMPILER__mbz-
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\IpUtils.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\IpUtils.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\IpUtils.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/Layer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/Layer.cpp
@@ -293,7 +293,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/Layer.cpp.o: CXX_COMPILER__mbz-li
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\Layer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\Layer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\Layer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/Logger.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/Logger.cpp
@@ -301,7 +301,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/Logger.cpp.o: CXX_COMPILER__mbz-l
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\Logger.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\Logger.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\Logger.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/MacAddress.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/MacAddress.cpp
@@ -309,7 +309,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/MacAddress.cpp.o: CXX_COMPILER__m
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\MacAddress.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\MacAddress.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\MacAddress.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/MplsLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/MplsLayer.cpp
@@ -317,7 +317,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/MplsLayer.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\MplsLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\MplsLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\MplsLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/NullLoopbackLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/NullLoopbackLayer.cpp
@@ -325,7 +325,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/NullLoopbackLayer.cpp.o: CXX_COMP
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\NullLoopbackLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\NullLoopbackLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\NullLoopbackLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PPPoELayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/PPPoELayer.cpp
@@ -333,7 +333,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PPPoELayer.cpp.o: CXX_COMPILER__m
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\PPPoELayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\PPPoELayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\PPPoELayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/Packet.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/Packet.cpp
@@ -341,7 +341,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/Packet.cpp.o: CXX_COMPILER__mbz-l
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\Packet.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\Packet.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\Packet.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PacketTrailerLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/PacketTrailerLayer.cpp
@@ -349,7 +349,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PacketTrailerLayer.cpp.o: CXX_COM
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\PacketTrailerLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\PacketTrailerLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\PacketTrailerLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PacketUtils.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/PacketUtils.cpp
@@ -357,7 +357,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PacketUtils.cpp.o: CXX_COMPILER__
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\PacketUtils.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\PacketUtils.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\PacketUtils.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PayloadLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/PayloadLayer.cpp
@@ -365,7 +365,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PayloadLayer.cpp.o: CXX_COMPILER_
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\PayloadLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\PayloadLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\PayloadLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PcapPlusPlusVersion.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/PcapPlusPlusVersion.cpp
@@ -373,7 +373,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/PcapPlusPlusVersion.cpp.o: CXX_CO
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\PcapPlusPlusVersion.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\PcapPlusPlusVersion.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\PcapPlusPlusVersion.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/RawPacket.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/RawPacket.cpp
@@ -381,7 +381,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/RawPacket.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\RawPacket.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\RawPacket.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\RawPacket.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SSLHandshake.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/SSLHandshake.cpp
@@ -389,7 +389,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SSLHandshake.cpp.o: CXX_COMPILER_
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\SSLHandshake.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\SSLHandshake.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\SSLHandshake.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SSLLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/SSLLayer.cpp
@@ -397,7 +397,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SSLLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\SSLLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\SSLLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\SSLLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SdpLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/SdpLayer.cpp
@@ -405,7 +405,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SdpLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\SdpLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\SdpLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\SdpLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SipLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/SipLayer.cpp
@@ -413,7 +413,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SipLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\SipLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\SipLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\SipLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SllLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/SllLayer.cpp
@@ -421,7 +421,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SllLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\SllLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\SllLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\SllLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SystemUtils.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/SystemUtils.cpp
@@ -429,7 +429,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/SystemUtils.cpp.o: CXX_COMPILER__
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\SystemUtils.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\SystemUtils.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\SystemUtils.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/TablePrinter.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/TablePrinter.cpp
@@ -437,7 +437,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/TablePrinter.cpp.o: CXX_COMPILER_
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\TablePrinter.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\TablePrinter.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\TablePrinter.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/TcpLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/TcpLayer.cpp
@@ -445,7 +445,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/TcpLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\TcpLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\TcpLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\TcpLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/TcpReassembly.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/TcpReassembly.cpp
@@ -453,7 +453,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/TcpReassembly.cpp.o: CXX_COMPILER
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\TcpReassembly.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\TcpReassembly.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\TcpReassembly.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/TextBasedProtocol.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/TextBasedProtocol.cpp
@@ -461,7 +461,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/TextBasedProtocol.cpp.o: CXX_COMP
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\TextBasedProtocol.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\TextBasedProtocol.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\TextBasedProtocol.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/UdpLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/UdpLayer.cpp
@@ -469,7 +469,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/UdpLayer.cpp.o: CXX_COMPILER__mbz
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\UdpLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\UdpLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\UdpLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/VlanLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/VlanLayer.cpp
@@ -477,7 +477,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/VlanLayer.cpp.o: CXX_COMPILER__mb
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\VlanLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\VlanLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\VlanLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/VxlanLayer.cpp.o: CXX_COMPILER__mbz-lib ../../../../src/main/cpp/pcpp/VxlanLayer.cpp
@@ -485,7 +485,7 @@ build CMakeFiles/mbz-lib.dir/src/main/cpp/pcpp/VxlanLayer.cpp.o: CXX_COMPILER__m
   DEP_FILE = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp\VxlanLayer.cpp.o.d
   FLAGS = -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11
   INCLUDES = -I../../../../src/main/cpp -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
-  IN_ABS = C:\Users\James\research\MBZ-Code\mbz\app\src\main\cpp\pcpp\VxlanLayer.cpp
+  IN_ABS = C:\Users\James\research\mbz\app\src\main\cpp\pcpp\VxlanLayer.cpp
   OBJECT_DIR = CMakeFiles\mbz-lib.dir
   OBJECT_FILE_DIR = CMakeFiles\mbz-lib.dir\src\main\cpp\pcpp
 
@@ -512,7 +512,7 @@ build ../../../../build/intermediates/cmake/debug/obj/x86_64/libmbz-lib.so: CXX_
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\James\research\MBZ-Code\mbz\app\.externalNativeBuild\cmake\debug\x86_64 && C:\Users\James\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\James\research\mbz\app\.externalNativeBuild\cmake\debug\x86_64 && C:\Users\James\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -521,7 +521,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\James\research\MBZ-Code\mbz\app\.externalNativeBuild\cmake\debug\x86_64 && C:\Users\James\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe -HC:\Users\James\research\MBZ-Code\mbz\app -BC:\Users\James\research\MBZ-Code\mbz\app\.externalNativeBuild\cmake\debug\x86_64"
+  COMMAND = cmd.exe /C "cd /D C:\Users\James\research\mbz\app\.externalNativeBuild\cmake\debug\x86_64 && C:\Users\James\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe -HC:\Users\James\research\mbz\app -BC:\Users\James\research\mbz\app\.externalNativeBuild\cmake\debug\x86_64"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -552,13 +552,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../../../../CMakeLists.txt C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake C$:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake C$:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx
+build build.ninja: RERUN_CMAKE | ../../../../CMakeLists.txt C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake C$:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake C$:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../../../../CMakeLists.txt C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C-FeatureTests.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake C$:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake C$:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx: phony
+build ../../../../CMakeLists.txt C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake C$:/Users/James/AppData/Local/Android/Sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake C$:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake C$:/Users/James/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake: phony
 
 #############################################
 # Clean all the built files.

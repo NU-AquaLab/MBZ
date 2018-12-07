@@ -14,9 +14,36 @@ namespace routing {
     m_handle(handle), m_req(req),
     m_init(init), m_run(run), m_stop(stop), m_deinit(deinit),
     m_update(update), m_procout(procout),
-    m_thread(NULL) {}
+    m_thread(NULL), which_procout(0) {}
 
-  Plugin::~Plugin() {
+    Plugin::Plugin(int pid, int pipeline, void *handle, int (*req)(void*, int),
+                   void (*init)(int, int (*)(void*, int)),
+                   void (*run)(void),
+                   void (*stop)(void),
+                   void (*deinit)(void),
+                   void (*update)(char *, int),
+                   void (*procout)(char *, char *, int *)):
+            m_pid(pid), m_pipeline(pipeline), m_running(false),
+            m_handle(handle), m_req(req),
+            m_init(init), m_run(run), m_stop(stop), m_deinit(deinit),
+            m_update(update), m_procout_flex(procout),
+            m_thread(NULL), which_procout(1) {}
+
+    Plugin::Plugin(int pid, int pipeline, void *handle, int (*req)(void*, int),
+                   void (*init)(int, int (*)(void*, int)),
+                   void (*run)(void),
+                   void (*stop)(void),
+                   void (*deinit)(void),
+                   void (*update)(char *, int),
+                   void (*procout)(char *, char *, int *),
+                   void (*procin)(char *, char *, int *)):
+            m_pid(pid), m_pipeline(pipeline), m_running(false),
+            m_handle(handle), m_req(req),
+            m_init(init), m_run(run), m_stop(stop), m_deinit(deinit),
+            m_update(update), m_procout_flex(procout), m_procin(procin),
+            m_thread(NULL), which_procout(1) {}
+
+    Plugin::~Plugin() {
     dlclose(m_handle);
     delete m_thread;
   }
@@ -43,6 +70,18 @@ namespace routing {
 
   void Plugin::procout(uint32_t dstip, uint16_t dstport, int *drop) {
     m_procout(dstip, dstport, drop);
+  }
+
+  void Plugin::procout_flex(char *buf, char *resp, int *action) {
+    m_procout_flex(buf, resp, action);
+  }
+
+  void Plugin::procin(char *buf, char *resp, int *action) {
+    m_procin(buf, resp, action);
+  }
+
+  int Plugin::getWhichProcout() {
+    return which_procout;
   }
 
   int Plugin::getPid() {

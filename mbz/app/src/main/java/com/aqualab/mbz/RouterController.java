@@ -6,6 +6,7 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.net.Inet4Address;
 import java.net.InetAddress;
@@ -124,6 +125,13 @@ public class RouterController implements Runnable {
         // add catch-all route
         m_builder.addRoute("0.0.0.0", 0);
 
+        //added by jtn
+        //Add the dns resolver to the path
+//        try {
+//            m_builder.addDnsServer("8.8.8.8");
+//        }catch(IllegalArgumentException iae){
+//            Log.d("JTN_DNS", "Error. Invalid DNS resolver: 8.8.8.8");
+//        }
         // add routes for currently active network interfaces
         try {
             Enumeration<NetworkInterface> e = NetworkInterface.getNetworkInterfaces();

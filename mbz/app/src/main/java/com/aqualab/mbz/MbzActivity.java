@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.net.VpnService;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,6 +39,8 @@ public class MbzActivity extends Activity {
     private static final String TAG = "MbzActivity";
     private static final String PLUGIN_DIRNAME = "plugins";
 
+    private static final boolean LOAD_PLUGINS = true;
+
     private ServiceConnection m_conn;
     private MbzService.MbzBinder m_binder;
     private PluginAdapter m_adapter;
@@ -49,7 +52,12 @@ public class MbzActivity extends Activity {
         // init state
         m_conn = new MbzServiceConnection();
         m_binder = null;
-        m_adapter = new PluginAdapter();
+        if(LOAD_PLUGINS) {
+            m_adapter = new PluginAdapter();
+        }
+
+        //set dns server to a valid address
+        android.provider.Settings.System.putString(getContentResolver(), Settings.System.WIFI_STATIC_DNS1, "8.8.8.8");
 
         // init UI elements
         final Button startButton = findViewById(R.id.router_start);
@@ -81,9 +89,10 @@ public class MbzActivity extends Activity {
             }
         });
 
-        ListView pluginList = findViewById(R.id.plugin_list);
-        pluginList.setAdapter(m_adapter);
-
+        if(LOAD_PLUGINS) {
+            ListView pluginList = findViewById(R.id.plugin_list);
+            pluginList.setAdapter(m_adapter);
+        }
         Log.d(TAG, "Activity created.");
     }
 
@@ -129,7 +138,9 @@ public class MbzActivity extends Activity {
         @Override
         public void onServiceConnected(ComponentName className, IBinder binder) {
             m_binder = (MbzService.MbzBinder) binder;
-            m_adapter.registerAll();
+            if(LOAD_PLUGINS) {
+                m_adapter.registerAll();
+            }
         }
 
         @Override
@@ -141,7 +152,9 @@ public class MbzActivity extends Activity {
     private void startRouting() {
         if (m_binder != null) {
             m_binder.startRouting();
-            m_adapter.notifyDataSetChanged();
+            if(LOAD_PLUGINS) {
+                m_adapter.notifyDataSetChanged();
+            }
         }
         else {
             Toast.makeText(this, "Unable to bind service.", Toast.LENGTH_SHORT).show();
@@ -151,7 +164,9 @@ public class MbzActivity extends Activity {
     private void stopRouting() {
         if (m_binder != null) {
             m_binder.stopRouting();
-            m_adapter.notifyDataSetChanged();
+            if(LOAD_PLUGINS) {
+                m_adapter.notifyDataSetChanged();
+            }
         }
         else {
             Toast.makeText(this, "Unable to bind service.", Toast.LENGTH_SHORT).show();

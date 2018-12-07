@@ -4,6 +4,7 @@
 #include <android/log.h>
 
 #include <sstream>
+//#include <opencl-c.h>
 
 #include "Flow.h"
 #include "TcpFlow.h"
@@ -267,7 +268,7 @@ namespace routing {
     req r;
     OutPacket *outpkt;
     Plugin *p;
-    int drop = 0;
+    int action = 0;
 
     if (read(m_rreqfd, &r, sizeof(r)) < 0) {
       common::printSyscallError(TAG, "Error reading router message: %s");
@@ -278,8 +279,8 @@ namespace routing {
     switch (r.type) {
       case REQ_TYPE_PACKET:
         outpkt = (OutPacket *) r.data;
-        applyPluginsOut(outpkt, &drop);
-        if (!drop) {
+        applyPluginsOut(outpkt, &action);
+        if (!action) {
           processTunPacket(outpkt, done);
         }
         delete outpkt;
@@ -306,16 +307,28 @@ namespace routing {
     return true;
   }
 
-  bool Flow::applyPluginsOut(OutPacket *outpkt, int *drop) {
+  bool Flow::applyPluginsOut(OutPacket *outpkt, int *action) {
     DEBUG_PRINT(TAG, "Applying plugins to outbound packet...");
-
+    char buf[256];
+//    std::string x = outpkt->toString();
+    sprintf(buf, "%s\n", outpkt->toString().c_str());
+    char resp;
     for (auto it = m_plugins.begin(); it != m_plugins.end(); it++) {
       DEBUG_PRINT(TAG, "Applying plugin %d.", (*it)->getPid());
+      int wp = (*it)->getWhichProcout();
+      if(wp == 0) {
+        (*it)->procout(outpkt->getDstAddrIpv4(), outpkt->getDstPort(), action);
+      }else if(wp == 1){
+        (*it)->procout_flex(buf, &resp, action);
+      }
 
-      (*it)->procout(outpkt->getDstAddrIpv4(), outpkt->getDstPort(), drop);
-
-      if (*drop) {
+      //TODO: add additional functionality to function here
+      //      - i.e. bypass outward sockets and return packet in resp
+      if (*action == 1) {
         break;
+      }else if(*action == 2){
+        //store resp from plugin to write to tun
+
       }
     }
 
@@ -340,9 +353,29 @@ namespace routing {
     } else if (n == 0) {
       processSockClose(done);
     } else {
-      processSockData(buf, (size_t) n);
+      InPacket ip = *generatePacket(buf, (size_t) n);
+      int action = 0;
+      __android_log_print(ANDROID_LOG_DEBUG, TAG, "Calling applyPluginsIn");
+      applyPluginsIn(&ip, &action);
+      if (action == 0) {
+        processSockData(buf, (size_t) n);
+      }else{
+        *done = true;
+      }
     }
 
+    return true;
+  }
+
+  bool Flow::applyPluginsIn(InPacket *inPacket, int *action){
+      char buf[256];
+      char resp;
+      sprintf(buf, "%s", inPacket->getMPacket().toString().c_str());
+      for(auto it = m_plugins.begin(); it != m_plugins.end(); it++){
+        //call plugin's procin function
+        (*it)->procin(buf, &resp, action);
+      }
+    *action = 0;
     return true;
   }
 

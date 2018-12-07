@@ -17,6 +17,8 @@ namespace routing {
     const uint8_t *getRawData() const;
     size_t getRawDataLen() const;
 
+    pcpp::Packet getMPacket();
+
     void createSynAck(uint32_t seqnum, uint32_t acknum, uint16_t win);
     void createFinAck(uint32_t seqnum, uint32_t acknum, uint16_t win);
     void createAck(uint32_t seqnum, uint32_t acknum, uint16_t win);

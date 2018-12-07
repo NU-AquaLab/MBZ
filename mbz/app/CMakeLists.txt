@@ -9,6 +9,7 @@ cmake_minimum_required(VERSION 3.4.1)
 
 set (CMAKE_CXX_STANDARD 11)
 
+
 # Defines preprocessor symbols.
 
 add_definitions(-DLINUX=1)
@@ -23,10 +24,94 @@ include_directories("src/main/cpp")
 file(GLOB PCPP_SOURCES "src/main/cpp/pcpp/*.cpp"
                        "src/main/cpp/pcpp/*.h")
 
+# Collects all the net sources by directory
+file(GLOB NET_SOURCES "src/main/cpp/net/*.cc"
+                        "src/main/cpp/net/*.h"
+                      )
+#
+#file(GLOB GOOGLE_SOURCES "src/main/cpp/google/*.cc"
+#                         "src/main/cpp/google/*.h")
+#
+#file(GLOB TESTING_SOURCES "src/main/cpp/testing/*.cc"
+#                          "src/main/cpp/testing/*.h")
+#
+#file(GLOB CHROMIUM_SOURCES "src/main/cpp/chromium/*.cc"
+#                           "src/main/cpp/chromium/*.h")
+#
+#file(GLOB QUIC_SOURCES "src/main/cpp/quic/src/*.cc"
+#                       "src/main/cpp/quic/src/*.h")
+#
+#file(GLOB BASE_SOURCES "src/main/cpp/base/*.cc"
+#                       "src/main/cpp/base/*.h")
+
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.
 # Gradle automatically packages shared libraries with your APK.
+
+#add_library(#Sets the name
+#        quic-lib
+#
+#        #Set the library as a shared library
+#        SHARED
+#
+#        "src/main/cpp/net/temp.cpp"
+##        "src/main/cpp/net/quic/test_tools/quic_test_utils.cc"
+#
+#
+#        #Provides a relative path to the source files
+#        ${NET_SOURCES}
+#        )
+
+#add_library(
+#        google-lib
+#
+#        SHARED
+#
+#        "src/main/cpp/google/temp.cpp"
+#
+#        ${GOOGLE_SOURCES}
+#)
+#
+#add_library(
+#        testing_lib
+#
+#        SHARED
+#
+#        "src/main/cpp/testing/temp.cpp"
+#
+#        ${TESTING_SOURCES}
+#)
+#
+#add_library(
+#        chromium-lib
+#
+#        SHARED
+#
+#        "src/main/cpp/chromium/temp.cpp"
+#
+#        ${CHROMIUM_SOURCES}
+#)
+#
+#add_library(
+#        base-lib
+#
+#        SHARED
+#
+#        "src/main/cpp/base/temp.cpp"
+#
+#        ${BASE_SOURCES}
+#)
+#
+#add_library(
+#        quic-lib
+#
+#        SHARED
+#
+#        "src/main/cpp/quic/temp.cpp"
+#
+#        ${QUIC_SOURCES}
+#)
 
 add_library( # Sets the name of the library.
              mbz-lib
@@ -78,7 +163,12 @@ find_library( # Sets the name of the path variable.
 
 target_link_libraries( # Specifies the target library.
                        mbz-lib
-
+#                       base-lib
+#                       quic-lib
+                       #chromium-lib
+#                       quic-lib
+#                       google-lib
+#                       testing-lib
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )

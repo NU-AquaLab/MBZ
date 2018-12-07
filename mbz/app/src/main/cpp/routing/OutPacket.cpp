@@ -8,6 +8,8 @@
 #include "pcpp/ProtocolType.h"
 #include "pcpp/TcpLayer.h"
 
+//#include "net/quic/core/quic_packets.h"
+
 #define TAG "OutPacket"
 
 namespace routing {
@@ -170,14 +172,23 @@ namespace routing {
                 "Printing outbound packet...");
 
     for (pcpp::Layer *l = m_packet->getFirstLayer(); l != NULL; l = l->getNextLayer()) {
-      __android_log_print(ANDROID_LOG_DEBUG, TAG,
+      __android_log_print(ANDROID_LOG_DEBUG, "JTN",
                   "Protocol: %d | Total: %d | Header: %d | Payload: %d",
                   l->getProtocol(),
                   (int) l->getDataLen(),
                   (int) l->getHeaderLen(),
                   (int) l->getLayerPayloadSize());
-      __android_log_print(ANDROID_LOG_DEBUG, TAG, "%s", l->toString().c_str());
+      __android_log_print(ANDROID_LOG_DEBUG, "JTN", "%s", l->toString().c_str());
+//      __android_log_print(ANDROID_LOG_DEBUG, "JTN", "%s", QUIC_TAG);
     }
+  }
+
+  std::string OutPacket::toString() const {
+      std::string s = "";
+      for(pcpp::Layer *l = m_packet->getFirstLayer(); l != NULL; l = l->getNextLayer()){
+        s = s + l->toString() + "\n";
+      }
+      return s;
   }
 
   void OutPacket::computeFlowId() {

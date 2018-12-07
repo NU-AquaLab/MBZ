@@ -84,7 +84,8 @@ namespace routing {
     bool sockReadable() const;
     timeval *getTimeout();
     bool processRouterReq(bool *done);
-    bool applyPluginsOut(OutPacket *outpkt, int *drop);
+    bool applyPluginsOut(OutPacket *outpkt, int *action);
+    bool applyPluginsIn(InPacket *inpkt, int *action);
     bool addPlugin(Plugin *p);
     bool removePlugin(Plugin *p);
     bool processSockData(bool *done);

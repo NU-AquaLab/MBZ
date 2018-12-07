@@ -36,6 +36,8 @@ namespace routing {
 
     bool post(int source, int type, bool sync, void *data);
 
+    bool testQuic();
+
   private:
     bool m_stopping;
     uint32_t m_tunaddripv4;

@@ -1,3 +1,0 @@
-/Users/jtnhome/research/2018/MBZ/code/mbz/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
-/Users/jtnhome/research/2018/MBZ/code/mbz/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
-/Users/jtnhome/research/2018/MBZ/code/mbz/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/mbz-lib.dir

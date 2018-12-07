@@ -75,8 +75,16 @@ class Plugin {
             layoutClass = loader.loadClass(className);
         }
         catch (Exception e) {
-            Log.e(TAG, "Error loading plugin layout: " + e.getMessage());
-            return false;
+            try{
+                className = "com.aqualab." + m_name + "." + LAYOUT_NAME;
+                Log.d(TAG, className);
+                layoutClass = loader.loadClass(className);
+            }catch(Exception elk){
+                Log.e(TAG, "Error Loading plugin layout: " + elk.getMessage());
+                Log.e(TAG, "Error loading plugin layout: " + e.getMessage());
+                return false;
+            }
+
         }
 
         try {

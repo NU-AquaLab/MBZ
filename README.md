@@ -1,10 +1,10 @@
-# MBZ-Code
+# MBZ
+
+## AUTHORS
 
 James Newman, Abbas Razaghpanah, Narseo Vallina-Rodriguez, Fabián E. Bustamante, Mark Allman, Diego Perino, Alessandro Finamore
 
-===============================================================================
-CONTENTS
-===============================================================================
+## CONTENTS
 
 mbz: the main MBZ Android Studio project.
 
@@ -17,10 +17,7 @@ test: a (very) simple test client and server, meant for unit tests. Could
 do more interesting tests with this. Requires a cross-compiling toolchain
 for the client. Currently implements an echo test only.
 
-
-===============================================================================
-DEPLOYMENT
-===============================================================================
+## DEPLOYMENT
 
 The MBZ project can be deployed through Android Studio directly.
 
@@ -59,10 +56,7 @@ for the .jar file, and
 plugins/<plugin-name>/app/build/intermediates/cmake/debug/obj/<isa>/libplugin.so
 for the .so file.
 
-
-===============================================================================
-IMPLEMENTATION - MANAGED
-===============================================================================
+## IMPLEMENTATION - MANAGED
 
 The Java code has just a few important classes:
   MbzActivity: main activity
@@ -74,10 +68,7 @@ The Java code has just a few important classes:
 
 Note that PluginController is pretty much vestigial at this point.
 
-
-===============================================================================
-IMPLEMENTATION - NATIVE
-===============================================================================
+## IMPLEMENTATION - NATIVE
 
 The code is split into four namespaces:
   common: general utilities
@@ -128,10 +119,7 @@ InPacket.cpp and OutPacket.cpp are wrappers for pcpp.
 Utils.cpp has debug prints, which are controlled by preprocessor symbols
 defined in the cmake build file.
 
-
-===============================================================================
-IMPLEMENTATION - DIRTY LAUNDRY
-===============================================================================
+## IMPLEMENTATION - DIRTY LAUNDRY
 
 There's a few bad things going on.
 

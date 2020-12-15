@@ -1,8 +1,11 @@
 # MBZ
 
 ## Introduction
+
 The closed design of mobile devices — with the increased security and consistent user interfaces — is in large part responsible for their becoming the dominant platform for accessing the Internet. These benefits, however, are not without a cost. Their operation of mobile devices and their apps is not easy to understand by either users or operators.
 We argue for recovering transparency and control on mobile devices through an extensible platform that can intercept and modify traffic before leaving the device or, on arrival, before reaching the operating system. Conceptually, this is the same view of the traffic that a traditional middlebox would have at the far end of the first link in the network path. We call this platform “middlebox zero” or MBZ. By being on-board, MBZ also leverages local context as it processes the traffic and complement the network wide view of standard middleboxes. 
+
+A detailed description can be found in J. Newman et al. <a href="https://arxiv.org/abs/2012.07695">"Back in control -- An extensible middle-box on your phone"</a>
 
 ## AUTHORS
 
